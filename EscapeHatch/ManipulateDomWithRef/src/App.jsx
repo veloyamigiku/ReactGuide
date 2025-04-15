@@ -1,5 +1,6 @@
 import CatFriends from "./CatFriends";
 import Form from "./Form";
+import MyForm from "./MyForm";
 
 function App() {
   return (
@@ -12,6 +13,10 @@ function App() {
         <div>
           <h3>例：要素へのスクロール</h3>
           <CatFriends />
+        </div>
+        <div>
+          <h3>別のコンポーネントの DOM ノードにアクセスする</h3>
+          <MyForm />
         </div>
       </div>
     </>
